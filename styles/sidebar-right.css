@@ -1,0 +1,10 @@
+.sidebar-right{
+    position: fixed;
+    top:0px;
+    right:100px;
+    bottom:0px;
+    width:420px;
+    border: 1px solid black;
+    background-color: pink;
+    
+}
