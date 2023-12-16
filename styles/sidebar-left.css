@@ -20,12 +20,20 @@
 .x-img{
     width:36px;
     padding: 7px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.15s;
+}
+.x-img:hover{
+    background-color:  rgb(238, 235, 235);
 }
 .img-og-box{
     display:flex;
     justify-content: center;
     align-items: center;
+   
     
+   
 }
 .all-btn-box{
     display: flex;
@@ -38,7 +46,13 @@
     justify-content: center;
     align-items: center;
     padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.15s;
 
+}
+.btn-link:hover .btn-box:hover{
+    background-color: rgb(238, 235, 235);
 }
 .btn-link{
     display: flex;
@@ -55,7 +69,8 @@
     padding: 0px 17px;
 }
 .btn-img{
-    width:26px;
+    width:22px;
+    padding:2px;
 }
 .post-btn-big-box{
     display: flex;
@@ -71,8 +86,12 @@
     font-size: 17px;
     border-radius: 50px;
     margin:4px;
+    cursor:pointer;
+    transition: all 0.15s;
+}
 
-
+.post-btn-main:hover{
+    background-color: #0e89e0;
 }
 .profile-main-box{
     display: flex;
@@ -81,7 +100,13 @@
     align-items: center;
     padding: 12px;
     margin-top: 20px;
+    transition: all 0.15s;
+    cursor: pointer;
+    border-radius: 40px;
 
+}
+.profile-main-box:hover{
+    background-color: rgb(238, 235, 235);
 }
 .profile-name{
     display: flex;
